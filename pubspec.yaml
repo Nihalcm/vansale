@@ -40,6 +40,7 @@ dependencies:
   get: ^4.7.2
   flutter_svg:
   url_launcher: ^6.3.2
+  google_fonts:
   marquee: ^2.3.0
   flutter_native_splash: ^2.4.7
   glass: ^2.0.0+2

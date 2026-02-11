@@ -51,8 +51,8 @@ class Dashboard extends StatelessWidget {
             ? NoInternetScreen()
             : Scaffold(
                 appBar: AppBar(
-                  surfaceTintColor: AppColors.secondary,
-                  backgroundColor: AppColors.secondary,
+                  surfaceTintColor: AppColors.white,
+                  backgroundColor: AppColors.white,
                   automaticallyImplyLeading: false,
                   toolbarHeight: 70.h,
                   title: Row(

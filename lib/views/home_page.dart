@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:vansales/model/quick_link_model.dart';
 import 'package:vansales/utils/app_colours.dart';
 import 'package:vansales/utils/app_fonts.dart';
@@ -98,7 +99,7 @@ class HomePage extends StatelessWidget {
                               Text(
                                 "65,521",
                                 style: TextStyle(
-                                  color: AppColors.primaryLight,
+                                  color: AppColors.white,
                                   fontSize: 40.sp,
                                   fontFamily: FontFam.extraBold,
                                 ),
@@ -306,9 +307,9 @@ class HomePage extends StatelessWidget {
                       ),
                       child: Column(crossAxisAlignment: CrossAxisAlignment.center,mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          SvgPicture.asset(quickLinks[index].image,color: AppColors.primary,height: 40,),
+                          SvgPicture.asset(quickLinks[index].image,color: AppColors.primary,height: 35.h,),
                           SizedBox(height: 10.h,),
-                          Text(quickLinks[index].name,textAlign: TextAlign.center,style: TextStyle(color: AppColors.primary,fontSize: 12.sp,fontFamily: FontFam.regular),),
+                          Text(quickLinks[index].name,textAlign: TextAlign.center,style: GoogleFonts.poppins(color: AppColors.primary,fontSize: 12.sp),),
                         ],
                       ),
                     ),
